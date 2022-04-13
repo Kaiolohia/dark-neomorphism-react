@@ -6,7 +6,7 @@ import 'dark-neomorphism-react/dist/index.css'
 const App = () => {
   return (
   <div>
-    <ExampleComponent text="Create React Library Example" />
+    <ExampleComponent text="Dark Neomorphism React Components" />
     <Btn value="Button"/>
   </div>
   )

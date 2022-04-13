@@ -4,6 +4,6 @@ export { default as Btn } from "./btns/Btn"
 
 export const ExampleComponent = ({ text }) => {
   return <div className={styles.box}>
-      <p className={styles.text}>Example Component: {text}</p>
+      <p className={styles.text}>{text}</p>
     </div>
 }
