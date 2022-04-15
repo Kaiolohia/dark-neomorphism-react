@@ -20,16 +20,36 @@ body {
   border-radius: 30px;
   transition: 150ms ease;
   display: inline-block;
+  text-align: center;
 }
 
 .box:hover {
   box-shadow:0px 0px 0px 0 rgba(58, 58, 58, 0.3), 0px 0px 0px 0 rgba(0,0,0,.2), inset  -12px -12px 12px 0 rgba(58, 58, 58, 0.3), inset 12px 12px 12px 0 rgba(0,0,0,.2);
 }
 
-.text {
-  font-size: 2em;
-  text-align: center;
+.h1 {
+  font-size: 3em;
+}
+
+.h2 {
+  font-size: 2.5em;
 } 
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.5em;
+}
 
 .btn {
   color: var(--primary-color);
